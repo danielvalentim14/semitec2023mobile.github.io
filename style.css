@@ -1,0 +1,259 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*menu*/
+
+.menu{
+  background: black;
+  width: 66rem;
+}
+i#Menu {
+  background-color: #262626;
+  width: 100vw;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  background:black;
+  
+}
+
+.op {
+  text-align: center;
+  list-style-type: none;
+  line-height: 1;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 1rem 3rem;
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+    
+  }
+
+menu {
+  display: none;
+  text-align: left;
+  
+}
+
+i#Menu:hover {
+  background-color: red;
+  color: white;
+  font-size:2.5rem;
+  border-radius: 10px;
+  border:none;
+ 
+
+}
+*{
+  box-sizing: border box;
+}
+body{
+   
+  background:url("img/logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+/*cabeça*/
+header{
+  background-color: black;
+  box-shadow: 0px 3px 10px black;
+  width: 66rem;
+  background: black;
+  height: 50%;
+}
+
+/*pagina inicial*/
+
+ .nome{
+   
+  text-align:center;
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  
+
+}
+/*discrição do evento*/
+
+.link{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: red;
+  padding: 2rem;
+}
+.link a{
+  text-align: center;
+  line-height: 1;
+  margin: 1rem 3rem;
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+
+}
+/*logo*/
+.nav-logo{
+  
+  text-align: center;
+  width: 350px;
+  height: 350px;
+  border-radius:50%;
+  border: 0;
+  padding:0;
+  margin: 300px;
+  
+}
+.logo{
+  
+  text-align: center;
+  width: 350px;
+  height: 350px;
+  border-radius:50%;
+  
+  
+}
+
+/*semitec em...*/
+
+
+.l{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: black;
+  font-size: 4rem;
+  margin-top: -15.5rem;
+  text-align: center;
+  width:1000px;
+  right:1000px;
+  
+}
+
+
+
+/*relogio de contagem regressiva*/
+.countdown-container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width:1000px;
+  right:1000px;
+  
+}
+
+.text{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+  color: black;
+  
+
+}
+
+.countdown-el{
+  text-align: center;
+  
+}
+span{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+  
+}
+
+/*imagem de redes sociais*/
+.img{
+  width: 40px;
+  right:30px ;
+}
+.format{
+  width: 100%;
+  right: 10%;
+  
+}
+.list{
+  /*text-align: center;*/
+  width:1000px;
+  right:1000px;
+}
+.list img{
+  text-align: center;
+  border-radius: 50%;
+  
+  
+}
+.list ul{
+    display: flex;
+    padding: 16px;
+    text-align: center;
+    justify-content: center;
+    margin: 3rem 4rem;
+    color: black;
+  
+  
+}
+  
+
+lo a{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  right: 1px;
+  
+  
+}
+
+.instagram{
+  border-radius: 50%;
+  border: 4px solid mediumvioletred;
+  width: 60px;
+  right: 60px;
+  
+}
+
+.whatsapp{
+  
+  border: 4px solid green;
+  width: 60px;
+  right: 60px;
+  text-align: center;
+  
+}
+.twiter{
+  border: 4px solid deepskyblue;
+  width: 60px;
+  right: 60px;
+  
+}
+.yotube{
+  border: 4px solid red;
+  width: 60px;
+  right:60px;
+
+}
+.facebook{
+  border: 4px solid blue;
+  width: 60px;
+  right:60px;
+  
+}
+
+ul .nav-link{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 20px;
+  line-height: 1;
+  color: black;
+}
